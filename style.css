@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c9c9c9;
+  padding: 20px;
+}
+
+.search__space {
+  display: flex;
+  /* background-color: blue; */
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
+}
+
+.search__book {
+  width: 600px;
+  height: 40px;
+  border: 10px solid #a7c9eb;
+  border-radius: 20px 0 0 20px;
+  font-size: 36px;
+  padding: 8px;
+}
+
+.search__icon {
+  height: 40px;
+  background-color: #a7c9eb;
+  padding: 8px;
+  border: 10px solid #a7c9eb;
+  border-left: 0px solid #a7c9eb;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.search__space i {
+  font-size: 36px;
+  color: white;
+}
+
+.login {
+  width: 100px;
+  height: 50px;
+  font-size: 24px;
+  border: 5px solid #0066cc;
+  border-radius: 15px;
+}
+
+section {
+  padding: 8px;
+}
+
+.book__container {
+  /* background-color: #c9c9c9; */
+  padding: 20px;
+}
+
+.book__list {
+  display: flex;
+}
+
+.books {
+  width: 140px;
+  height: 200px;
+  margin: 8px;
+  background-color: #0066cc;
+}
+
+footer {
+  text-align: center;
+  background-color: #c9c9c9;
+  padding: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .search__space {
+    display: none;
+  }
+
+  .book__list {
+    flex-direction: column;
+  }
+
+  .books {
+    width: 280px;
+    height: 400px;
+  }
+}
